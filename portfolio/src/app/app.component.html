@@ -1,3 +1,41 @@
-<h1>
-  {{title}}
-</h1>
+<div class="flex-container" fxLayout="row" fxLayoutAlign="center stretch">
+  <div fxFlex="30" class="flex-item page-select-group">
+    <div (click)="select(0)" class="page-select-container profile-select-container flex-container" [class.selected]="isSelected(0)" fxLayout="row" fxLayoutAlign="start center">
+      <div class="selection"></div>
+      <div>
+        <div style="font-size:18px;"><strong>Joshua Clingo</strong></div>
+        <div>UX | UI | CS | Philosophy</div>
+      </div>
+      
+    </div>
+    <div (click)="select(1)" class="page-select-container" [class.selected]="isSelected(1)" fxLayout="row" fxLayoutAlign="start center">
+      <div class="selection"></div>
+      <div>Cognitive Medical / Veteterans Affairs (VA)</div>
+    </div>
+    <div (click)="select(2)" class="page-select-container" [class.selected]="isSelected(2)" fxLayout="row" fxLayoutAlign="start center">
+      <div class="selection"></div>
+      <div>Health Ally Provider Portal</div>
+    </div>
+    <div (click)="select(3)" class="page-select-container" [class.selected]="isSelected(3)" fxLayout="row" fxLayoutAlign="start center">
+      <div class="selection"></div>
+      <div>Health Ally Mobile App</div>
+    </div>
+    <div (click)="select(4)" class="page-select-container" [class.selected]="isSelected(4)" fxLayout="row" fxLayoutAlign="start center">
+      <div class="selection"></div>
+      <div>Fantasy Ski Racer App</div>
+    </div>
+    <div (click)="select(5)" class="page-select-container" [class.selected]="isSelected(5)" fxLayout="row" fxLayoutAlign="start center">
+      <div class="selection"></div>
+      <div>Dataphor Web Client</div>
+    </div>
+    <div (click)="select(6)" class="page-select-container" [class.selected]="isSelected(6)" fxLayout="row" fxLayoutAlign="start center">
+      <div class="selection"></div>
+      <div>Jingo AI (personal project)</div>
+    </div>
+    <div (click)="select(7)" class="page-select-container" [class.selected]="isSelected(7)" fxLayout="row" fxLayoutAlign="start center">
+      <div class="selection"></div>
+      <div>Beyond</div>
+    </div>
+  </div>
+  <p-detail [page]="page" fxFlex class="flex-item detail-container"></p-detail>
+</div>

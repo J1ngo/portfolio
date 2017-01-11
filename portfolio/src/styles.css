@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+
+html {
+    font-family: Segoe UI, Verdana, Helvetica, Sans-Serif;
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    font-size: 13px;
+    min-height: 100vh;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+}
+
+p {
+    font-family: 'Consolas', 'Courier-New';
+    font-size: 13px;
+}

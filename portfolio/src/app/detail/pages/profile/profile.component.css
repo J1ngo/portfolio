@@ -1,0 +1,18 @@
+a{
+    color: white;
+}
+
+.contact-container {
+    background-color: #373737;
+    border: 1px solid #111111;
+    border-radius: 5px;
+    padding:10px;
+}
+
+.contact-container .info {
+    padding-left: 20px;
+}
+
+.contact-container .info div {
+    margin-bottom:5px;
+}

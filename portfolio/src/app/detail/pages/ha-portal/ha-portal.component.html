@@ -1,1 +1,64 @@
-[:3]
+<h2 style="margin-bottom:0; color: #2196F3;">Health Ally Provider Portal</h2>
+<article>
+    <p>
+        As part of my work for a startup called OSIA Medical, I ideated, designed, developed, and implemented a Provider (Doctors, Nurses, Staff, etc.) Portal, where said providers could review and track their patients through our platform.
+    </p>
+    <p>
+        The site was developed in AngularJS (v. 1.3.x) and used OSIA's underlying platform and a RESTful API to transmit patient data to and fro.
+        The general idea is that patients with supported chronic conditions provided longitudinal data via the Health Ally mobile app, and providers received this data via our web portal.
+        Additionally, providers have the ability to message their patients directly via a secure messaging client within the portal (and the app).
+    </p>
+    <p>
+        Another key feature was the "Triage" portion of the dashboard, which highlighted chronic patients who reported abnormal values as part of the main workflow.
+        This was done to both lower the risk of emergency room visits and to improve scheduling; after all, the patients who benefit the most from the direct attention of doctors are those currently in the throes of their condition.
+        The login screen may be found <a href="https://portal.osiamed.com/#/provider/login" target="_blank">here</a>, but you won't have access––instead, here are some screenshots: 
+    </p>
+
+</article>
+
+<div class="gallery-container">
+    <div class="thumbnails flex-container" fxLayout="row" fxLayoutAlign="center stretch">
+        <div class="flex-item">
+            <img src="./assets/portal-triage.png" class="thumbnail" [class.selected]="isSelected(0)" alt="Triage" (click)="select(0)"/>
+        </div>
+        <div class="flex-item">
+            <img src="./assets/portal-messaging.png" class="thumbnail" [class.selected]="isSelected(1)" alt="Message a patient" (click)="select(1)"/>
+        </div>
+        <div class="flex-item">
+            <img src="./assets/portal-connection.png" class="thumbnail" [class.selected]="isSelected(2)" alt="Connect to a patient" (click)="select(2)"/>
+        </div>
+        <div class="flex-item">
+            <img src="./assets/portal-clinics.png" class="thumbnail" [class.selected]="isSelected(3)" alt="Manage clinic" (click)="select(3)"/>
+        </div>
+    </div>
+    <div class="image">
+        <div *ngIf="isSelected(0)">
+            <img src="./assets/portal-triage.png" alt="Triage"/>
+            <br>
+            <div class="caption">
+                Patient in Triage, expanded to show some historical details via charts.
+            </div>
+        </div>
+        <div *ngIf="isSelected(1)">
+            <img src="./assets/portal-messaging.png" alt="Message a patient"/>
+            <br>
+            <div class="caption">
+                Quick messaging (via phone notifications) to a single patient
+            </div>
+        </div>
+        <div *ngIf="isSelected(2)">
+            <img src="./assets/portal-connection.png" alt="Connect to a patient"/>
+            <br>
+            <div class="caption">
+                Connecting to a new patient
+            </div>
+        </div>
+        <div *ngIf="isSelected(3)">
+            <img src="./assets/portal-clinics.png" alt="Manage clinic"/>
+            <br>
+            <div class="caption">
+                Managing clinic information (for patient discovery, auditing, reports, etc.)
+            </div>
+        </div>
+    </div>
+</div>

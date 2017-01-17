@@ -1,4 +1,4 @@
-<h2 style="margin-bottom:0; color: #2196F3;">Health Ally Provider Portal</h2>
+<h1 style="color: #2196F3;">Health Ally Provider Portal</h1>
 <article>
     <p>
         As part of my work for a startup called OSIA Medical, I ideated, designed, developed, and implemented a Provider (Doctors, Nurses, Staff, etc.) Portal, where said providers could review and track their patients through our platform.
@@ -17,20 +17,6 @@
 </article>
 
 <div class="gallery-container">
-    <div class="thumbnails flex-container" fxLayout="row" fxLayoutAlign="center stretch">
-        <div class="flex-item">
-            <img src="./assets/portal-triage.png" class="thumbnail" [class.selected]="isSelected(0)" alt="Triage" (click)="select(0)"/>
-        </div>
-        <div class="flex-item">
-            <img src="./assets/portal-messaging.png" class="thumbnail" [class.selected]="isSelected(1)" alt="Message a patient" (click)="select(1)"/>
-        </div>
-        <div class="flex-item">
-            <img src="./assets/portal-connection.png" class="thumbnail" [class.selected]="isSelected(2)" alt="Connect to a patient" (click)="select(2)"/>
-        </div>
-        <div class="flex-item">
-            <img src="./assets/portal-clinics.png" class="thumbnail" [class.selected]="isSelected(3)" alt="Manage clinic" (click)="select(3)"/>
-        </div>
-    </div>
     <div class="image">
         <div *ngIf="isSelected(0)">
             <img src="./assets/portal-triage.png" alt="Triage"/>
@@ -59,6 +45,20 @@
             <div class="caption">
                 Managing clinic information (for patient discovery, auditing, reports, etc.)
             </div>
+        </div>
+    </div>
+    <div class="thumbnails flex-container" fxLayout="row" fxLayout-xs="column" fxLayoutWrap fxLayoutAlign="center stretch">
+        <div class="flex-item" fxFlex="250px">
+            <img src="./assets/portal-triage.png" class="thumbnail" [class.selected]="isSelected(0)" alt="Triage" (click)="select(0)"/>
+        </div>
+        <div class="flex-item" fxFlex="250px">
+            <img src="./assets/portal-messaging.png" class="thumbnail" [class.selected]="isSelected(1)" alt="Message a patient" (click)="select(1)"/>
+        </div>
+        <div class="flex-item" fxFlex="250px">
+            <img src="./assets/portal-connection.png" class="thumbnail" [class.selected]="isSelected(2)" alt="Connect to a patient" (click)="select(2)"/>
+        </div>
+        <div class="flex-item" fxFlex="250px">
+            <img src="./assets/portal-clinics.png" class="thumbnail" [class.selected]="isSelected(3)" alt="Manage clinic" (click)="select(3)"/>
         </div>
     </div>
 </div>

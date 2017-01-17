@@ -2,9 +2,9 @@ import { Component, Input } from '@angular/core';
 
 enum pages {
     profile = 0,
-    cognitive,
     haPortal,
     haApp,
+    cognitive,
     fsr,
     dataphorWeb,
     jingoAI,

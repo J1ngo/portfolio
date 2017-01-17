@@ -1,7 +1,7 @@
-<h2 style="margin-bottom:0; color: #2196F3;">Health Ally Provider Portal</h2>
+<h1 style="color: #2196F3;">Health Ally Mobile App</h1>
 <article>
     <p>
-        As part of my work for OSIA Medical, I designed and developed Health Ally, an iOS, Android, and Windows Phone (Rest in peace, sweet prince) <a href="https://itunes.apple.com/us/app/health-ally/id951166565" target="_blank">app</a> for patients with certain chronic conditions, including Asthma, Allergies, High Blood Pressure, Diabetes, Depression––and so on.
+        As part of my work for OSIA Medical, I designed and developed Health Ally, an iOS, Android, and Windows Phone (Rest in peace, sweet prince) <a href="https://itunes.apple.com/us/app/health-ally/id951166565" target="_blank">app</a> for patients with certain chronic conditions, including Asthma, Allergies, High Blood Pressure, Diabetes, Depression––and so on. We used Xamarin studio to facilitate the cross-platform aspect.
     </p>
     <p>
         The driving idea behind this app was that doctors have little to no visibility into their patients' health between what are often infrequent visits. Similar apps are now somewhat commonplace, but OSIA was ahead of the curve in trying to solve this issue.
@@ -17,14 +17,6 @@
 </article>
 
 <div class="gallery-container">
-    <div class="thumbnails flex-container" fxLayout="row" fxLayoutAlign="center stretch">
-        <div class="flex-item">
-            <img src="./assets/app-main.png" class="thumbnail" [class.selected]="isSelected(0)" alt="Health Ally -- Main screens" (click)="select(0)"/>
-        </div>
-        <div class="flex-item">
-            <img src="./assets/app-conversations.png" class="thumbnail" [class.selected]="isSelected(1)" alt="Health Ally -- Messaging" (click)="select(1)"/>
-        </div>
-    </div>
     <div class="image">
         <div *ngIf="isSelected(0)">
             <img src="./assets/app-main.png" alt="Health Ally -- Main screens"/>
@@ -40,6 +32,13 @@
                 (Left to right) Current conversations, inside a conversation
             </div>
         </div>
-        
+    </div>
+    <div class="thumbnails flex-container" fxLayout="row" fxLayout-xs="column" fxLayoutAlign="center stretch">
+        <div class="flex-item" fxFlex="250px">
+            <img src="./assets/app-main.png" class="thumbnail" [class.selected]="isSelected(0)" alt="Health Ally -- Main screens" (click)="select(0)"/>
+        </div>
+        <div class="flex-item" fxFlex="250px">
+            <img src="./assets/app-conversations.png" class="thumbnail" [class.selected]="isSelected(1)" alt="Health Ally -- Messaging" (click)="select(1)"/>
+        </div>
     </div>
 </div>

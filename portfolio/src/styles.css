@@ -1,10 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 
 html {
-    font-family: Segoe UI, Verdana, Helvetica, Sans-Serif;
-    background-color: #1e1e1e;
-    color: #d4d4d4;
-    font-size: 13px;
+    font-family: 'Nunito Sans' 'Segoe UI', Verdana, Helvetica, Sans-Serif;
+    background-color: white;
+    color: #1e1e1e;
+    font-size: 100%;
     min-height: 100vh;
 }
 
@@ -14,11 +14,30 @@ body {
 }
 
 p {
-    font-family: 'Consolas', 'Courier-New';
-    font-size: 13px;
+    font-family: 'Pontano Sans', sans-serif;
+    font-size: 100%;
+}
+
+.detail-container {
+    background: white;
+    max-height: 100vh;
+    height:100vh;
+    overflow-y: scroll;
+}
+
+@media(max-width: 959px) {
+    .detail-container {
+        max-height: initial;
+        overflow-y: initial;
+        height: 100%;
+    }
 }
 
 /*Gallery*/
+
+.gallery-container {
+    margin-top:20px;
+}
 
 .gallery-container .thumbnail {
     max-width: 200px;
@@ -28,16 +47,15 @@ p {
 
 .gallery-container .thumbnail:not(.selected):hover {
     cursor: pointer;
-    background: #373737;
+    background: #ddd;
 }
 
 .gallery-container .thumbnail.selected {
-    background: #373737;
+    background: #ddd;
 }
 
 .gallery-container .image {
     margin: 0 auto;
-    max-width: 90%;
 }
 
 .gallery-container .image .caption {
@@ -51,10 +69,9 @@ p {
 }
 
 .project {
-    background: #373737;
-    padding: 5px;
+    background: #eee;
+    padding: 10px 20px;
     margin-bottom: 10px;
-    border: 1px solid #111111;
     border-radius: 5px;
 }
 

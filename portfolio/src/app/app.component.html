@@ -1,28 +1,27 @@
-<div class="flex-container" fxLayout="row" fxLayoutAlign="center stretch">
-  <div fxFlex="30" class="flex-item page-select-group">
+<div class="flex-container" fxLayout.md="row" fxLayout.sm="column" fxLayout.xs="column" fxLayoutAlign>
+  <div fxFlex.lg="30%" fxFlex.md="30%" fxFlex.sm="100%" fxFlex.xs="100%" class="flex-item page-select-group">
     <div (click)="select(0)" class="page-select-container profile-select-container flex-container" [class.selected]="isSelected(0)" fxLayout="row" fxLayoutAlign="start center">
       <div class="selection"></div>
       <div>
-        <div style="font-size:18px;"><strong>Joshua Clingo</strong></div>
+        <div style="font-size:22px;"><strong>Joshua Clingo</strong></div>
         <div>UX | UI | CS | Phil</div>
       </div>
-      
     </div>
     <div (click)="select(1)" class="page-select-container" [class.selected]="isSelected(1)" fxLayout="row" fxLayoutAlign="start center">
       <div class="selection"></div>
-      <div>Cognitive Medical / Veterans Affairs (VA)</div>
+      <div>Health Ally Provider Portal</div>
     </div>
     <div (click)="select(2)" class="page-select-container" [class.selected]="isSelected(2)" fxLayout="row" fxLayoutAlign="start center">
       <div class="selection"></div>
-      <div>Health Ally Provider Portal</div>
+      <div>Health Ally Mobile App</div>
     </div>
     <div (click)="select(3)" class="page-select-container" [class.selected]="isSelected(3)" fxLayout="row" fxLayoutAlign="start center">
       <div class="selection"></div>
-      <div>Health Ally Mobile App</div>
+      <div>Cognitive Medical / Veterans Affairs (VA)</div>
     </div>
     <div (click)="select(4)" class="page-select-container" [class.selected]="isSelected(4)" fxLayout="row" fxLayoutAlign="start center">
       <div class="selection"></div>
-      <div>Fantasy Ski Racer App</div>
+      <div>Fantasy Ski Racer App / Website</div>
     </div>
     <div (click)="select(5)" class="page-select-container" [class.selected]="isSelected(5)" fxLayout="row" fxLayoutAlign="start center">
       <div class="selection"></div>
@@ -37,5 +36,5 @@
       <div>Beyond</div>
     </div>
   </div>
-  <p-detail [page]="page" fxFlex class="flex-item detail-container"></p-detail>
+  <p-detail [page]="page" fxFlex.md="70%" fxFlex.sm="100%" fxFlex.xs="100%" class="flex-item detail-container"></p-detail>
 </div>

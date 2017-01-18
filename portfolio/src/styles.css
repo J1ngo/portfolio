@@ -18,6 +18,10 @@ p {
     font-size: 100%;
 }
 
+a {
+    color: #2196F3;
+}
+
 .detail-container {
     background: white;
     max-height: 100vh;
@@ -76,5 +80,5 @@ p {
 }
 
 .project h3 {
-    color: #2196F3;
+    color: #F44336;
 }

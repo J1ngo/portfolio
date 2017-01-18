@@ -1,38 +1,51 @@
 <div class="flex-container" fxLayout.md="row" fxLayout.sm="column" fxLayout.xs="column" fxLayoutAlign>
   <div fxFlex.lg="30%" fxFlex.md="30%" fxFlex.sm="100%" fxFlex.xs="100%" class="flex-item page-select-group">
     <div (click)="select(0)" class="page-select-container profile-select-container flex-container" [class.selected]="isSelected(0)" fxLayout="row" fxLayoutAlign="start center">
-      <div class="selection"></div>
       <div>
         <div style="font-size:22px;"><strong>Joshua Clingo</strong></div>
         <div>UX | UI | CS | Phil</div>
       </div>
     </div>
     <div (click)="select(1)" class="page-select-container" [class.selected]="isSelected(1)" fxLayout="row" fxLayoutAlign="start center">
-      <div class="selection"></div>
+      <div class="icon">
+        <img src="./assets/medical-desktop.svg"/>
+      </div>
       <div>Health Ally Provider Portal</div>
     </div>
     <div (click)="select(2)" class="page-select-container" [class.selected]="isSelected(2)" fxLayout="row" fxLayoutAlign="start center">
-      <div class="selection"></div>
+      <div class="icon">
+        <img src="./assets/medical-smartphone.svg"/>
+      </div>
       <div>Health Ally Mobile App</div>
     </div>
     <div (click)="select(3)" class="page-select-container" [class.selected]="isSelected(3)" fxLayout="row" fxLayoutAlign="start center">
-      <div class="selection"></div>
+      <div class="icon">
+        <img src="./assets/microscope.svg"/>
+      </div>
       <div>Cognitive Medical / Veterans Affairs (VA)</div>
     </div>
     <div (click)="select(4)" class="page-select-container" [class.selected]="isSelected(4)" fxLayout="row" fxLayoutAlign="start center">
-      <div class="selection"></div>
+      <div class="icon">
+        <img src="./assets/skiier.svg"/>
+      </div>
       <div>Fantasy Ski Racer App / Website</div>
     </div>
     <div (click)="select(5)" class="page-select-container" [class.selected]="isSelected(5)" fxLayout="row" fxLayoutAlign="start center">
-      <div class="selection"></div>
+      <div class="icon">
+        <img src="./assets/db.svg"/>
+      </div>
       <div>Dataphor Web Client</div>
     </div>
     <div (click)="select(6)" class="page-select-container" [class.selected]="isSelected(6)" fxLayout="row" fxLayoutAlign="start center">
-      <div class="selection"></div>
+      <div class="icon">
+        <img src="./assets/cloud-ai.svg"/>
+      </div>
       <div>jingo.ai</div>
     </div>
     <div (click)="select(7)" class="page-select-container" [class.selected]="isSelected(7)" fxLayout="row" fxLayoutAlign="start center">
-      <div class="selection"></div>
+      <div class="icon">
+        <img src="./assets/galaxy.svg"/>
+      </div>
       <div>Beyond</div>
     </div>
   </div>

@@ -14,6 +14,7 @@ import {
   HAAppComponent,
   HAPortalComponent,
   JingoAIComponent,
+  LPHIComponent,
   OtherComponent,
   ProfileComponent 
 } from './detail/index';
@@ -28,6 +29,7 @@ import {
     HAAppComponent,
     HAPortalComponent,
     JingoAIComponent,
+    LPHIComponent,
     OtherComponent,
     ProfileComponent    
   ],

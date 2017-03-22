@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 
 enum pages {
     profile = 0,
+    lphi,
     cognitive,
     haPortal,
     haApp,

@@ -1,10 +1,10 @@
-import { PortfolioPage } from './app.po';
+import { PhiMergePage } from './app.po';
 
-describe('portfolio App', function() {
-  let page: PortfolioPage;
+describe('phi-merge App', function() {
+  let page: PhiMergePage;
 
   beforeEach(() => {
-    page = new PortfolioPage();
+    page = new PhiMergePage();
   });
 
   it('should display message saying app works', () => {

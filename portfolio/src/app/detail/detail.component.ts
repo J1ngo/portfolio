@@ -2,9 +2,10 @@ import { Component, Input } from '@angular/core';
 
 enum pages {
     profile = 0,
+    lphi,
+    cognitive,
     haPortal,
     haApp,
-    cognitive,
     fsr,
     dataphorWeb,
     jingoAI,
@@ -14,6 +15,7 @@ enum pages {
 @Component({
   selector: 'p-detail',
   template: `
+  <p-lphi *ngIf="page === _pages.lphi" ></p-lphi>
   <p-profile *ngIf="page === _pages.profile" ></p-profile>
   <p-cognitive *ngIf="page === _pages.cognitive" ></p-cognitive>
   <p-ha-portal *ngIf="page === _pages.haPortal" ></p-ha-portal>

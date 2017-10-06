@@ -1,1 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 53"><defs><style>.cls-1{fill:#424a60;}.cls-2{fill:#efce4a;}.cls-3{fill:#7fabda;}.cls-4{fill:#7383bf;}</style></defs><title>Asset 2</title><g id="Layer_2" data-name="Layer 2"><g id="Capa_1" data-name="Capa 1"><path class="cls-1" d="M48,8h0c-.73-4.46-11.17-8-24-8S.78,3.54,0,8H0V45H0c.73,4.46,11.18,8,24,8s23.22-3.54,24-8h0V8Z"/><path class="cls-1" d="M24,41C10.74,41,0,37.19,0,32.5V45H0c.73,4.46,11.18,8,24,8s23.22-3.54,24-8h0V32.5C48,37.19,37.26,41,24,41Z"/><path class="cls-1" d="M0,32v.5A3.11,3.11,0,0,1,0,32Z"/><path class="cls-1" d="M48,32a3.11,3.11,0,0,1,0,.5V32Z"/><path class="cls-2" d="M24,29C10.74,29,0,25.19,0,20.5V33H0c.73,4.46,11.18,8,24,8s23.22-3.54,24-8h0V20.5C48,25.19,37.26,29,24,29Z"/><path class="cls-2" d="M0,20v.5A3.11,3.11,0,0,1,0,20Z"/><path class="cls-2" d="M48,20a3.11,3.11,0,0,1,0,.5V20Z"/><ellipse class="cls-3" cx="24" cy="8.5" rx="24" ry="8.5"/><path class="cls-4" d="M24,17C10.74,17,0,13.19,0,8.5V21H0c.73,4.46,11.18,8,24,8s23.22-3.54,24-8h0V8.5C48,13.19,37.26,17,24,17Z"/><path class="cls-4" d="M0,8v.5A3.11,3.11,0,0,1,0,8Z"/><path class="cls-4" d="M48,8a3.11,3.11,0,0,1,0,.5V8Z"/></g></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 48 53" style="enable-background:new 0 0 48 53;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#424A60;}
+	.st1{fill:#5B5D6E;}
+	.st2{fill:#00D2FF;}
+	.st3{fill:#EFCE4A;}
+	.st4{fill:#B8E9FF;}
+	.st5{fill:#D9F3FF;}
+	.st6{fill:#7383BF;}
+</style>
+<title>Asset 2</title>
+<g id="Layer_2">
+	<g id="Capa_1">
+		<path class="st0" d="M48,8L48,8c-0.7-4.5-11.2-8-24-8S0.8,3.5,0,8l0,0v37l0,0c0.7,4.5,11.2,8,24,8s23.2-3.5,24-8l0,0V8z"/>
+		<path class="st1" d="M24,41c-13.3,0-24-3.8-24-8.5V45l0,0c0.7,4.5,11.2,8,24,8s23.2-3.5,24-8l0,0V32.5C48,37.2,37.3,41,24,41z"/>
+		<path class="st0" d="M0,32v0.5C0,32.3,0,32.2,0,32z"/>
+		<path class="st0" d="M48,32c0,0.2,0,0.3,0,0.5V32z"/>
+		<path class="st2" d="M24,29c-13.3,0-24-3.8-24-8.5V33l0,0c0.7,4.5,11.2,8,24,8s23.2-3.5,24-8l0,0V20.5C48,25.2,37.3,29,24,29z"/>
+		<path class="st3" d="M0,20v0.5C0,20.3,0,20.2,0,20z"/>
+		<path class="st3" d="M48,20c0,0.2,0,0.3,0,0.5V20z"/>
+		<ellipse class="st4" cx="24" cy="8.5" rx="24" ry="8.5"/>
+		<path class="st5" d="M24,17C10.7,17,0,13.2,0,8.5V21l0,0c0.7,4.5,11.2,8,24,8s23.2-3.5,24-8l0,0V8.5C48,13.2,37.3,17,24,17z"/>
+		<path class="st6" d="M0,8v0.5C0,8.3,0,8.2,0,8z"/>
+		<path class="st6" d="M48,8c0,0.2,0,0.3,0,0.5V8z"/>
+	</g>
+</g>
+</svg>

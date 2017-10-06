@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-enum pages {
+enum Pages {
     profile = 0,
     lphi,
     cognitive,
@@ -18,7 +18,9 @@ enum pages {
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  page: number = pages.profile;
+  page: number = Pages.profile;
+
+  Pages = Pages
 
   select(num: number) {
     if (this.page !== num) {

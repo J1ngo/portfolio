@@ -14,7 +14,8 @@
 }
 
 .page-select-container.selected {
-    background-color: #3f3f46;
+    background-color: #F44336;
+    color: #fff;
 }
 
 .page-select-container .icon img {
@@ -32,12 +33,13 @@
     padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
-    
+    transition: background-color 100ms linear;
 }
 
 .page-select-container:hover {
     cursor: pointer;
-    background-color: #2a2d2e;
+    color: white;
+    background-color: #F44336;
 }
 
 .detail-container {

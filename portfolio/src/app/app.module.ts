@@ -15,6 +15,7 @@ import {
   HAPortalComponent,
   JingoAIComponent,
   LPHIComponent,
+  NanostringComponent,
   OtherComponent,
   ProfileComponent 
 } from './detail/index';
@@ -30,6 +31,7 @@ import {
     HAPortalComponent,
     JingoAIComponent,
     LPHIComponent,
+    NanostringComponent,
     OtherComponent,
     ProfileComponent    
   ],
@@ -37,7 +39,7 @@ import {
     BrowserModule,
     FormsModule,
     HttpModule,
-    FlexLayoutModule.forRoot()
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]

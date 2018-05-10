@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 
 enum Pages {
     profile = 0,
+    nanostring,
     lphi,
     cognitive,
     haPortal,
@@ -20,7 +21,7 @@ enum Pages {
 export class AppComponent {
   page: number = Pages.profile;
 
-  Pages = Pages
+  Pages = Pages;
 
   select(num: number) {
     if (this.page !== num) {

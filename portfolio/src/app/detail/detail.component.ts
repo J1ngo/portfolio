@@ -1,7 +1,8 @@
 import { Component, Input } from '@angular/core';
 
-enum pages {
+enum Pages {
     profile = 0,
+    nanostring,
     lphi,
     cognitive,
     haPortal,
@@ -15,6 +16,7 @@ enum pages {
 @Component({
   selector: 'p-detail',
   template: `
+  <p-nanostring *ngIf="page === _pages.nanostring" ></p-nanostring>
   <p-lphi *ngIf="page === _pages.lphi" ></p-lphi>
   <p-profile *ngIf="page === _pages.profile" ></p-profile>
   <p-cognitive *ngIf="page === _pages.cognitive" ></p-cognitive>
@@ -29,7 +31,7 @@ enum pages {
 })
 export class DetailComponent {
     
-    _pages = pages;
+    _pages = Pages;
 
     @Input() page: number;
 

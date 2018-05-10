@@ -5,5 +5,6 @@ export * from './ha-app/index';
 export * from './ha-portal/index';
 export * from './jingo-ai/index';
 export * from './lphi/index';
+export * from './nanostring/index';
 export * from './other/index';
 export * from './profile/index';

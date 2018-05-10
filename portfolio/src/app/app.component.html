@@ -6,6 +6,12 @@
         <div>UX | UI | CS | Phil</div>
       </div>
     </div>
+    <div (click)="select(Pages.nanostring)" class="page-select-container" [class.selected]="isSelected(Pages.nanostring)" fxLayout="row" fxLayoutAlign="start center">
+      <div class="icon">
+        <img src="./assets/dna.svg"/>
+      </div>
+      <div>Nanostring</div>
+    </div>
     <div (click)="select(Pages.lphi)" class="page-select-container" [class.selected]="isSelected(Pages.lphi)" fxLayout="row" fxLayoutAlign="start center">
       <div class="icon">
         <img src="./assets/doctor.svg"/>
